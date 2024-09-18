@@ -1,13 +1,13 @@
 # Variables
 CXX = g++
 CXXFLAGS = -Wall
-TARGET = Problem1
-SRC = Problem1.cpp
+TARGET = Problem2
+SRC = Problem2.cpp
 
 # Default target: compile the program
 all: $(TARGET)
 
-# Compile the Problem1.cpp
+# Compile the Problem2.cpp
 $(TARGET): $(SRC)
 	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC)
 
