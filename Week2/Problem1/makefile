@@ -2,12 +2,12 @@
 CXX = g++
 CXXFLAGS = -Wall
 TARGET = Problem1
-SRC = .cpp
+SRC = Problem1.cpp
 
 # Default target: compile the program
 all: $(TARGET)
 
-# Compile the fibonacci.cpp
+# Compile the Problem1.cpp
 $(TARGET): $(SRC)
 	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC)
 
