@@ -9,7 +9,7 @@ string Problem2(int input) {
 }
 
 int main() {
-    int a, b, c;
+    float a, b, c;
 
     cout << "Value of a: ";
     cin >> a;
