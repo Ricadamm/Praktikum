@@ -40,19 +40,24 @@ int main()
     int input;
     string expected_output;
 
+    std::ifstream testFile("test.txt");
+    int input;
+    std::string expected_output;
+
     if (!testFile) {
-        cerr << "Error: Could not open test.txt" << endl;
+        std::cerr << "Error: Could not open test.txt" << std::endl;
         return 1;
     }
+
     int test_num = 1;
-     while (getline(testFile, Name) && testFile >> Gross >> Installment >> Insurance) {
-         std::string output = Net;
-        getline(testFile, expected_output);
+    while (testFile >> input) {
+        std::getline(testFile, expected_output); 
+        std::string output = Problem1(input);
         if (output == expected_output) {
-            cout << "Test " << test_num << " passed!" << endl;
+            std::cout << "Test " << test_num << " passed!" << std::endl;
         } else {
-            cout << "Test " << test_num << " failed. Expected: \"" 
-                 << expected_output << "\", Got: \"" << output << "\"" << endl;
+            std::cout << "Test " << test_num << " failed. Expected: \"" 
+                      << expected_output << "\", Got: \"" << output << "\"" << std::endl;
         }
         test_num++;
     }
@@ -60,4 +65,3 @@ int main()
     testFile.close();
     return 0;
 }
- 
