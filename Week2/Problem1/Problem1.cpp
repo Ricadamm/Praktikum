@@ -35,6 +35,8 @@ int main()
     float Net = Gross - Tax - Installment - Insurance;
     cout << fixed << "Net Salary: " << "Rp " << Net << endl;
 
+    return result;
+
 
     ifstream testFile("test.txt");
     int input;
