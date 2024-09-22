@@ -44,9 +44,8 @@ int main()
         cerr << "Error: Could not open test.txt" << endl;
         return 1;
     }
-    while (getline(testFile, name) && testFile >> Gross >> Installment >> Insurance)
     int test_num = 1;
-    while (testFile >> input && getline(testFile >> ws, expected_output)) {
+     while (getline(testFile, name) && testFile >> Gross >> Installment >> Insurance) {
         getline(testFile, expected_output);
         if (output == expected_output) {
             cout << "Test " << test_num << " passed!" << endl;
