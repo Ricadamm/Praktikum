@@ -1,12 +1,9 @@
-John Doe, 10000000, 200000, 300000
-Payslip for Employee:
-.....................
-Name: John Doe
-Gross Salary: Rp10000000
-Tax (20%): Rp2000000.000000
-Installment: Rp200000
-Insurance: Rp300000
-Net Salary: Rp 7500000.000000
+John Doe
+5000000
+1000000
+500000
+Expected Output: Rp 3000000.00
+
 
 Ed Sheeran, 15000000, 500000, 100000
 Payslip for Employee:
