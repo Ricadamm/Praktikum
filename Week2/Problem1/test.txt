@@ -1,3 +1,8 @@
+Input:
+John Doe
+10000000
+200000
+300000
 Payslip for Employee:
 .....................
 Name: John Doe
@@ -8,11 +13,17 @@ Insurance: Rp300000
 Net Salary: Rp 7500000.000000
 
 
+Input:
+Ed Sheeran
+15000000
+500000
+100000
+Expected Output:
 Payslip for Employee:
 .....................
 Name: Ed Sheeran
 Gross Salary: Rp15000000
-Tax (20%): Rp3000000.000000
+Tax (20%): Rp3000000.00
 Installment: Rp500000
 Insurance: Rp100000
-Net Salary: Rp 11400000.000000
+Net Salary: Rp11400000.00
