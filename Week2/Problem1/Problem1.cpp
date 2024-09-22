@@ -31,28 +31,17 @@ int main()
 
 }
 
-int main() {
-    std::ifstream testFile("test.txt");
-    int input;
-    std::string expected_output;
-
-    if (!testFile) {
-        std::cerr << "Error: Could not open test.txt" << std::endl;
-        return 1;
-    }
-
-    int test_num = 1;
-    while (testFile >> input && std::getline(testFile >> std::ws, expected_output)) {
-        std::string output = Problem1(input);
+int test_num = 1;
+    while (testFile >> input && getline(testFile >> ws, expected_output)) {
+        string output = Problem1(input);  // Call the function with input
         if (output == expected_output) {
-            std::cout << "Test " << test_num << " passed!" << std::endl;
+            cout << "Test " << test_num << " passed!" << endl;
         } else {
-            std::cout << "Test " << test_num << " failed. Expected: \"" 
-                      << expected_output << "\", Got: \"" << output << "\"" << std::endl;
+            cout << "Test " << test_num << " failed. Expected: \"" 
+                 << expected_output << "\", Got: \"" << output << "\"" << endl;
         }
         test_num++;
     }
 
     testFile.close();
     return 0;
-}
