@@ -28,15 +28,14 @@ int main() {
         cout << "Result: x1 = " << x1 << endl;
         cout << "Result: x2 = " << x2 << endl;
     } else if (D == 0) {
-        float x = -b / (2.0 * a); // Corrected with parentheses
+        float x = -b / (2.0 * a); 
         cout << "D = 0," << endl;
         cout << "Result: x = " << x << endl;
-    } else { // D < 0
+    } else { 
         cout << "D < 0," << endl;
         cout << "Result: There are no real roots" << endl;
     }
 
-    // File reading for tests
     std::ifstream testFile("test.txt");
     int input;
     std::string expected_output;
