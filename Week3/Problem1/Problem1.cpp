@@ -38,7 +38,7 @@ int main()
     {
         float x = (-b)/(2*a);
        cout << "D=0," << endl;
-       cout << "Result: x1 and x2 are real and equal" << endl;
+       cout << "Result: x1 and x2 are real and equal" << x << endl;
         
     }
     
