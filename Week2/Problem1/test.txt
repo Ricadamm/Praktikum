@@ -2,7 +2,7 @@ John Doe
 5000000
 1000000
 500000
-Expected Output: Rp 3000000.00
+Rp 2500000.00
 
 
 Ed Sheeran, 15000000, 500000, 100000
