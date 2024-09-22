@@ -1,2 +1,17 @@
-Input: 5 42 10
-Output -0.245256 -8.15474
+Input: 5 42 110
+Output:
+D: b^ * b - (4ac) = 1564
+D > 0
+Result: x1 = -0.245256
+Result: x2 = -8.15474
+
+Input: 8 12 4.5
+Output:
+D: b^ * b - (4ac) = 0
+D = 0
+Result: x = - 48
+
+Input: 21 5 14
+D: b^ * b - (4ac) = - 1151
+D<0,
+Result: There are no real roots
