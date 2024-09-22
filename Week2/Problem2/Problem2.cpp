@@ -28,7 +28,7 @@ int main() {
         cout << "Result: x1 = " << x1 << endl;
         cout << "Result: x2 = " << x2 << endl;
     } else if (D == 0) {
-        float x = -b / (2.0 * a); 
+        float x = -b / (2 * a); 
         cout << "D = 0," << endl;
         cout << "Result: x = " << x << endl;
     } else { 
