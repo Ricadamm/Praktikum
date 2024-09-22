@@ -53,7 +53,7 @@ int main()
 }
 
 
-    std::ifstream testFile("test.txt");
+     std::ifstream testFile("test.txt");
     int input;
     std::string expected_output;
 
@@ -63,7 +63,8 @@ int main()
     }
 
     int test_num = 1;
-    while (testFile >> input && std::getline(testFile >> std::ws, expected_output)) {
+    while (testFile >> input) {
+        std::getline(testFile, expected_output); 
         std::string output = Problem1(input);
         if (output == expected_output) {
             std::cout << "Test " << test_num << " passed!" << std::endl;
