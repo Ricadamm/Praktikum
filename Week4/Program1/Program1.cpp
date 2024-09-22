@@ -16,5 +16,4 @@ int main() {
     // Output the result
     cout << "Sum = " << sum << endl;
 
-    return 0;
 }
