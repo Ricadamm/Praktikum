@@ -4,13 +4,14 @@ John Doe
 500000
 Rp 2500000.00
 
+Jane Smith
+6000000
+1500000
+700000
+Rp 2400000.00
 
-Ed Sheeran, 15000000, 500000, 100000
-Payslip for Employee:
-.....................
-Name: Ed Sheeran
-Gross Salary: Rp15000000
-Tax (20%): Rp3000000.000000
-Installment: Rp500000
-Insurance: Rp100000
-Net Salary: Rp11400000.000000
+Alice Johnson
+7000000
+2000000
+800000
+Rp 2400000.00
