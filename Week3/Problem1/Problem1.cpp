@@ -36,9 +36,9 @@ int main()
 
     else if (D==0) 
     {
-        float x = (-b)/(2*a);
+        (-b)/(2*a);
        cout << "D=0," << endl;
-       cout << "Result: x1 and x2 are real and equal" << x << endl;
+       cout << "Result: x1 and x2 are real and equal"  << endl;
         
     }
     
