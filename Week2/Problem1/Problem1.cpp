@@ -4,7 +4,7 @@
 using namespace std;
 
 string Problem1(int input){
-string result;
+return to_string(input);
 }
 
 int main()
@@ -34,8 +34,6 @@ int main()
 
     float Net = Gross - Tax - Installment - Insurance;
     cout << fixed << "Net Salary: " << "Rp " << Net << endl;
-
-    return result;
 
 
     ifstream testFile("test.txt");
