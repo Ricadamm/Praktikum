@@ -1,6 +1,13 @@
 #include <iostream>
+#include <fstream>
+#include <string>
 #include <cmath>
 using namespace std;
+
+string Problem2(int input) {
+    return to_string(input);
+}
+
 
 int main() 
 {
