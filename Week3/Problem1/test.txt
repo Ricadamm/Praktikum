@@ -1,1 +1,19 @@
+Input: 8 74 2
+Output:
+D: b^ * b - (4ac) = 5412
+D > 0
+Result: x1 = -0.0271063
+Result: x2 = - 9.22289
+
+Input: 20 10 1.25
+Output:
+D: b^ * b - (4ac) = 0
+D = 0
+Result: x1 and x2 are real and equal
+
+Input: 15 9 5
+Output:
+D: b^ * b - (4ac) = - 219
+D<0,
+Result: x1 and x2 are imaginary
 
