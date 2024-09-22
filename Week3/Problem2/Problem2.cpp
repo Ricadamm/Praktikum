@@ -1,5 +1,11 @@
 #include <iostream>
+#include <fstream>
+#include <string>
 using namespace std;
+
+string Problem1(int input) {
+    return to_string(input);
+}
 
 int main()
 {
