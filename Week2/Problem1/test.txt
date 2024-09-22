@@ -1,1 +1,18 @@
+Payslip for Employee:
+.....................
+Name: John Doe
+Gross Salary: Rp10000000
+Tax (20%): Rp2000000.000000
+Installment: Rp200000
+Insurance: Rp300000
+Net Salary: Rp 7500000.000000
 
+
+Payslip for Employee:
+.....................
+Name: Ed Sheeran
+Gross Salary: Rp15000000
+Tax (20%): Rp3000000.000000
+Installment: Rp500000
+Insurance: Rp100000
+Net Salary: Rp 11400000.000000
