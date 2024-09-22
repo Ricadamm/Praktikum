@@ -48,8 +48,7 @@ int main() {
 
     int test_num = 1;
     while (testFile >> input) {
-        testFile.ignore(); // Ignore the newline character
-        std::getline(testFile, expected_output); // Read the expected output
+        std::getline(testFile, expected_output); 
         std::string output = Problem2(input);
         if (output == expected_output) {
             std::cout << "Test " << test_num << " passed!" << std::endl;
