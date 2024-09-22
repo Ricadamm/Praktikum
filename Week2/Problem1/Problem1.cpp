@@ -46,7 +46,7 @@ int main()
     }
     int test_num = 1;
      while (getline(testFile, Name) && testFile >> Gross >> Installment >> Insurance) {
-         std::string output = Problem1(input);
+         std::string output = Net;
         getline(testFile, expected_output);
         if (output == expected_output) {
             cout << "Test " << test_num << " passed!" << endl;
