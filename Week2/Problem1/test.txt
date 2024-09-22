@@ -3,6 +3,7 @@ John Doe
 10000000
 200000
 300000
+Expected Output:
 Payslip for Employee:
 .....................
 Name: John Doe
