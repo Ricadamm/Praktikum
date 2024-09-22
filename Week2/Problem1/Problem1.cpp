@@ -9,7 +9,7 @@ int main()
 
     string Name;
     cout << "Name: ";
-    cin >> Name ;
+    getline(cin, Name);>> Name ;
 
     float Gross;
     cout << "Gross Salary: " << "Rp";
