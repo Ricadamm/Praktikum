@@ -1,1 +1,5 @@
-
+1 2 -3
+D: b*b - (4ac) = 16
+D > 0,
+Result: x1 = 1
+Result: x2 = -3
