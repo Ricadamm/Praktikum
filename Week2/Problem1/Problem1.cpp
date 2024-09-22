@@ -3,9 +3,8 @@
 #include <string>
 using namespace std;
 
-string Problem1(int input) {
-    return to_string(input);  
-}
+string Problem1(int input) 
+
 
 int main()
 {
