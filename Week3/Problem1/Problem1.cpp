@@ -57,7 +57,7 @@ int main() {
 
     int test_num = 1;
     while (testFile >> input && std::getline(testFile >> std::ws, expected_output)) {
-        std::string output = fibonacci(input);
+        std::string output = Problem1(input);
         if (output == expected_output) {
             std::cout << "Test " << test_num << " passed!" << std::endl;
         } else {
