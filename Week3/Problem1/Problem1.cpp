@@ -45,7 +45,7 @@ int main()
    
 }
 
-int main() {
+
     std::ifstream testFile("test.txt");
     int input;
     std::string expected_output;
