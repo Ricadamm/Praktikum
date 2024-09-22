@@ -1,5 +1,10 @@
 #include <iostream>
+#include <fstream>
+#include <string>
 using namespace std;
+
+string Problem2(int input) {
+    return to_string(input);
 
 int main() {
     int n, i;
@@ -27,7 +32,7 @@ int main() {
     int test_num = 1;
     while (testFile >> input) {
         std::getline(testFile, expected_output); 
-        std::string output = Problem1(input);
+        std::string output = Problem2(input);
         if (output == expected_output) {
             std::cout << "Test " << test_num << " passed!" << std::endl;
         } else {
