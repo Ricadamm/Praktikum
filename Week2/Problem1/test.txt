@@ -1,8 +1,4 @@
-Input:
-John Doe
-10000000
-200000
-300000
+Input:John Doe, 10000000, 200000, 300000
 Expected Output:
 Payslip for Employee:
 .....................
@@ -13,12 +9,7 @@ Installment: Rp200000
 Insurance: Rp300000
 Net Salary: Rp 7500000.000000
 
-
-Input:
-Ed Sheeran
-15000000
-500000
-100000
+Input:Ed Sheeran, 15000000, 500000, 100000
 Expected Output:
 Payslip for Employee:
 .....................
