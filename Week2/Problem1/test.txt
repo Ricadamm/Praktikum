@@ -1,17 +1,32 @@
-John Doe
-5000000
-1000000
-500000
-Rp 2500000.00
+Input: Adam 15029432 500000 1000000 1000000
+Output:
+Payslip for Employee:
+.......................
+Name: Adam
+Gross Salary: Rp15029432
+Tax (20%): Rp3005886.500000
+Installment: Rp500000
+Insurance: Rp1000000
+Net Salary: Rp 10523546.000000
 
-Jane Smith
-6000000
-1500000
-700000
-Rp 2400000.00
+Input: John 10500285 300000 500000
+Output:
+Payslip for Employee:
+.......................
+Name: John
+Gross Salary: Rp10500285
+Tax (20%): Rp2100057.000000
+Installment: Rp300000
+Insurance: Rp500000
+Net Salary: Rp 7600228.000000
 
-Alice Johnson
-7000000
-2000000
-800000
-Rp 2400000.00
+Input: Alex 5200000 50000 100000
+Output:
+Payslip for Employee:
+.......................
+Name: Alex
+Gross Salary: Rp5200000
+Tax (20%): Rp1040000.000000
+Installment: Rp50000
+Insurance: Rp100000
+Net Salary: Rp 4010000.000000
