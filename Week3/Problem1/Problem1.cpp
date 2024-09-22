@@ -4,7 +4,7 @@
 #include <cmath>
 using namespace std;
 
-string Problem2(int input) {
+string Problem1(int input) {
     return to_string(input);
 }
 
