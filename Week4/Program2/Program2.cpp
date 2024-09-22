@@ -13,9 +13,9 @@ int main() {
         cout << n << " x " << i << " = " << n * i << endl;
     }
 
-}
 
-    std::ifstream testFile("test.txt");
+
+     std::ifstream testFile("test.txt");
     int input;
     std::string expected_output;
 
@@ -25,8 +25,9 @@ int main() {
     }
 
     int test_num = 1;
-    while (testFile >> input && std::getline(testFile >> std::ws, expected_output)) {
-        std::string output = Problem2(input);
+    while (testFile >> input) {
+        std::getline(testFile, expected_output); 
+        std::string output = Problem1(input);
         if (output == expected_output) {
             std::cout << "Test " << test_num << " passed!" << std::endl;
         } else {
