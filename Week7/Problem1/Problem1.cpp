@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-void calculate(int a, int b, char operation) {
-    if (operation == '+') {
+void calculate(int a, int b, char op) {
+    if (op == '+') {
         cout << "Result: " << (a + b) << endl;
-    } else if (operation == '-') {
+    } else if (op == '-') {
         cout << "Result: " << (a - b) << endl;
     } else {
         cout << "Wrong operation" << endl;
@@ -17,7 +17,8 @@ int main() {
     cout << "Enter two numbers: ";
     cin >> a >> b;
     cout << "Enter operation: ";
-    cin >> operation;
+    cin >> op;
+    calculate(a, b, op)
   
     return 0;
 }
