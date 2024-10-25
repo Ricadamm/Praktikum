@@ -11,7 +11,7 @@ int gcd(int a, int b) {
 
 int main() {
     int a, b;
-    cout << "Enter two numbers to calculate their GCD: ";
+    cout << "Enter two numbers: ";
     cin >> a >> b;
     cout << "GCD of " << a << " and " << b << " is " << gcd(a, b) << endl;
     return 0;
