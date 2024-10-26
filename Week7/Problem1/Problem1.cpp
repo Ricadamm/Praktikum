@@ -13,7 +13,7 @@ void calculate(int a, int b, char op) {
 
 int main() {
     int a, b;
-    char operation;
+    char op;
     cout << "Enter two numbers: ";
     cin >> a >> b;
     cout << "Enter operation: ";
