@@ -18,7 +18,7 @@ int main() {
     cin >> a >> b;
     cout << "Enter operation: ";
     cin >> op;
-    calculate(a, b, op)
+    calculate(a, b, op);
   
     return 0;
 }
