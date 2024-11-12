@@ -20,12 +20,12 @@ void insertion(Student arr[], int n, bool value) {
         Student key = arr[i];
         int j = i - 1;
         if (value) {
-            while (j >= 0 && arr[j].value > key.value) {
+            while (j >= 0 && arr[j].value < key.value) {
                 arr[j + 1] = arr[j];
                 j--;
             }
         } else {
-            while (j >= 0 && arr[j].NISN > key.NISN) {
+            while (j >= 0 && arr[j].NISN < key.NISN) {
                 arr[j + 1] = arr[j];
                 j--;
             }
