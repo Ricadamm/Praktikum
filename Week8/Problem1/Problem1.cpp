@@ -139,7 +139,7 @@ int main() {
     string targetNISN = "9950310962";
     int index = binarysearch(students, n, targetNISN);
     if (index != -1) {
-        cout << "Found student value with NISN " << targetNISN << ": "  << students[index].value << endl;
+    cout << "Found student value with NISN " << targetNISN << ": "  << students[index].value << endl;
     cout << endl;
 
     
