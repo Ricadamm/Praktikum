@@ -106,32 +106,32 @@ int main() {
     };
     int n = 7;
 
-    cout << "Sorting by NISN (Insertion Sort):" << endl;
+    cout << "NISN (Insertion Sort):" << endl;
     insertion(students, n, false);
     Data(students, n);
     cout << endl;
 
-    cout << "Sorting by NISN (Selection Sort):" << endl;
+    cout << "NISN (Selection Sort):" << endl;
     selection(students, n, false);
     Data(students, n);
     cout << endl;
     
-    cout << "Sorting by NISN (Bubble Sort):" << endl;
+    cout << "NISN (Bubble Sort):" << endl;
     bubble(students, n, false);
     Data(students, n);
     cout << endl;
     
-    cout << "Sorting by Value (Insertion Sort):" << endl;
+    cout << "Value (Insertion Sort):" << endl;
     insertion(students, n, true);
     Data(students, n);
     cout << endl;
     
-    cout << "Sorting by Value (Selection Sort):" << endl;
+    cout << " Value (Selection Sort):" << endl;
     selection(students, n, true);
     Data(students, n);
     cout << endl;
     
-    cout << "Sorting by Value (Bubble Sort):" << endl;
+    cout << "Value (Bubble Sort):" << endl;
     bubble(students, n, true);
     Data(students, n);
     cout << endl;
