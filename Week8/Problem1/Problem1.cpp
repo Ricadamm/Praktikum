@@ -41,11 +41,11 @@ void selection(Student arr[], int n, bool value) {
         for (int j = i + 1; j < n; j++) {
             if (value) {
                 if (arr[j].value > arr[maxIndex].value) {
-                    minIndex = j;
+                    maxIndex = j;
                 }
             } else {
-                if (arr[j].name > arr[maxIndex].name) {
-                    minIndex = j;
+                if (arr[j].NISN > arr[maxIndex].name) {
+                    maxIndex = j;
                 }
             }
         }
@@ -150,4 +150,3 @@ int main() {
     return 0;
   } 
 }
-
