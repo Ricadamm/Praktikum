@@ -37,20 +37,20 @@ void insertion(Student arr[], int n, bool value) {
 
 void selection(Student arr[], int n, bool value) {
     for (int i = 0; i < n - 1; i++) {
-        int minIndex = i;
+        int maxIndex = i;
         for (int j = i + 1; j < n; j++) {
             if (value) {
-                if (arr[j].value < arr[minIndex].value) {
+                if (arr[j].value > arr[maxIndex].value) {
                     minIndex = j;
                 }
             } else {
-                if (arr[j].name < arr[minIndex].name) {
+                if (arr[j].name > arr[maxIndex].name) {
                     minIndex = j;
                 }
             }
         }
-        if (minIndex != i) {
-            swap(arr[i], arr[minIndex]);
+        if (maxIndex != i) {
+            swap(arr[i], arr[maxIndex]);
         }
     }
 }
